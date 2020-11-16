@@ -4,7 +4,7 @@
  */
 public class demo {
 
-    String x = "Holas";
+    String x = "Holas como van";
 
 
 
