@@ -1,0 +1,2 @@
+gato,perro,toro,leon
+rinoceronte,antilope, guajolote
