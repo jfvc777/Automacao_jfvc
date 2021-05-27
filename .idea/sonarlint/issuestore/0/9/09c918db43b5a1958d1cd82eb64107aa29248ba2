@@ -1,0 +1,5 @@
+
+asquid:S1854,">Remove this useless assignment to local variable "parsearAba".(¼óìÇúÿÿÿÿ8‚ÉåÒš/
+csquid:S1854M"@Remove this useless assignment to local variable "formatoParse".(üä¸úÿÿÿÿ8ØÂñîš/
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á·´÷şÿÿÿÿ
+W"squid:SwitchLastCaseIsDefaultCheck.""Add a default case to this switch.(÷ìåš8‚ÉåÒš/

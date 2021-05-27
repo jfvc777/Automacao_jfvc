@@ -1,21 +1,17 @@
 package hooks;
 
+import classesPageObjects.UtilTestePO;
+import org.junit.After;
+
 /**
  * @author Juan Castillo
  * @since 01/12/2020
  */
-public class Hook {
+public class Hook extends UtilTestePO {
 
-    //public static WebDriver driver;
-
-    //@Before
-    //public void init(){
-        // super.set
-
-   // }
-   // @After
-   // public void close() {
-   //     this.driver.close();
-   // }
+    @After
+    public void afterScenario() {
+        fecharBrowser();
+    }
 
 }

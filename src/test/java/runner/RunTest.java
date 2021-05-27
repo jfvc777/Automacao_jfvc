@@ -1,6 +1,7 @@
 package runner;
 
 
+import classesPageObjects.UtilTestePO;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -13,8 +14,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/features",
-        glue = {"stepdefinition","hooks"},
-        tags = {"@Ejemplo_Read"},
+        glue = {"stepdefinition", "hooks"},
+        tags = ("@cadastro_seguro"),
         plugin = {
                 "pretty",
                 "html:target/cucumber",
@@ -22,7 +23,8 @@ import org.junit.runner.RunWith;
         }
 )
 
-public class RunTest {
+public class RunTest extends UtilTestePO {
+
 
 
 }

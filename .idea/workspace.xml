@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63c71493c665cd3471c11ad0c0f311add69df6ba" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/398c586b7d769e6c18063fbd7698ff3a37315e68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf5ecba4d45ff9fe5939f9154f3830866dd370b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd948b071bac4153f7746752e79489d3aec77f71" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivos/demo_csv.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivos/demo_txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivos/demo_txt_comas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivos/demo_xls.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivos/demo_xlsx.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automacao_jfvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automacao_jfvc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/rest-api/exemplo-geral.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/ValidarArchivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarRest/ValidarRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/testes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarArchivos/StepsValidarArchivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarArchivos/ValidarArchivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarRest/ValidarRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/funciones_generales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/testes.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,52 +48,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/ValidarArchivos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/param_site.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state>
+              <caret column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,19 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/testes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="25" column="63" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="305">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +90,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hooks/Hook.java">
+        <entry file="file://$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +127,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/demo.java" />
-        <option value="$PROJECT_DIR$/src/test/features/rest-api/exemplo-geral.feature" />
         <option value="$PROJECT_DIR$/src/test/java/lecturaArchivoss/lecturaArchivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/lecturaArchivoss/lecturaArchivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/lecturaArchivo.java" />
@@ -136,14 +137,36 @@
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefsa.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefsww.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hooks/Hook.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java" />
         <option value="$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/ValidarArchivos.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/testes.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/Persona.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/testes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/Empleado.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/test/features/rest-api/exemplo-geral.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsCadastroSeguroVeiculo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/parametros_site.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/UtilTeste.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastrarSeguro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/UtilTestePO.java" />
+        <option value="$PROJECT_DIR$/src/test/features/rest-api/CadastroSeguroVeiculo.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastrarSeguroPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaEnterProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaSelectPrice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hooks/Hook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/extent.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/param_site.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runner/RunTest.java" />
       </list>
     </option>
   </component>
@@ -159,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +200,59 @@
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classesPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classesPageObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastrarSeguro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroSeguro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
@@ -198,29 +275,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinition" type="462c0819:PsiDirectoryNode" />
+              <item name="CadastroSeguroVeiculo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -240,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testes">
+  <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="testes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stepdefinition.testes" />
       <module name="Automacao_jfvc" />
@@ -271,8 +345,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testes" />
         <item itemvalue="JUnit.RunTest" />
+        <item itemvalue="Application.testes" />
       </list>
     </recent_temporary>
   </component>
@@ -305,34 +379,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2020.12.01 at 13h 16m 13s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 10h 43m 53s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 13h 16m 48s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 10h 45m 07s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 13h 28m 52s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 10h 47m 10s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 14h 42m 10s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 10h 48m 59s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 14h 46m 03s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 11h 17m 28s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 14h 56m 44s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 11h 53m 55s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 18h 20m 41s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 11h 54m 54s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 18h 30m 44s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 11h 56m 22s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 18h 53m 26s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 12h 14m 10s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2020.12.01 at 19h 12m 34s.xml">
+    <history-entry file="RunTest - 2021.05.27 at 12h 15m 15s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -346,10 +420,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2986322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3700608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7348609" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,6 +451,36 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3586626" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40261865" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -387,10 +490,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepdefinition/testes.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java</url>
+          <line>236</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -399,91 +502,184 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/demo.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/lecturaArchivoss/lecturaArchivo.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/lecturaArchivo/lecturaArchivo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarRest/ValidarRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsws.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsy.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsaa.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/features/rest-api/exemplo-geral.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsa.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsww.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parametros_site.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UtilTeste.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/ValidarArchivos.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarRest/ValidarRest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/testes.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/Persona.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/Empleado.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/Cliente.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSelectPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="17" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastrarSeguroPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/hooks/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="77">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extent-Config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Automacao_jfvc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/extent.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/param_site.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/ValidarArchivos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="305">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/testes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" column="63" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -526,6 +722,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -537,6 +734,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>Automacao_jfvc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
