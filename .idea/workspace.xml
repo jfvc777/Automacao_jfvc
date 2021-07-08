@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b257b71474e3e9f5de163830c3674bc30200fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/648d3099e6616c3c4ae5a148bb2351374862a293" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d03b389c40a39c8e18d72d577614696979a0985" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c918db43b5a1958d1cd82eb64107aa29248ba2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e596f1b8fb0103a77a9cce31ec9222429421eee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a49e8607f070a99a9461981474d6bbdf669cf51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85bdf3d8235aa401ad56909d7933264b6cf6abbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9ce6625974c3e2085d131151daabd6c732c7af72" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b32e3cdb0d05c346f2873260f081534ea887da4f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf2f9f7987b771761833a8af88faed469e56b93d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60a44a658ef53610b19f24104fbedf16cc00b5d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c936b1b304f2200b04d526365b1eafc32eddd897" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d019830190386e0e6053c58aac830fe78222b22a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/edada3b3d96b95858d5a9b0b81befdebaefd9707" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automacao_jfvc.eml" beforeDir="false" afterPath="$PROJECT_DIR$/Automacao_jfvc.eml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automacao_jfvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automacao_jfvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastrarSeguroPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSelectPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/param_site.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automacao_jfvc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -481,6 +440,17 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
