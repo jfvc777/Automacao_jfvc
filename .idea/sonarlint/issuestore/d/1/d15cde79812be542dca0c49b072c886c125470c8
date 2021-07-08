@@ -1,5 +1,17 @@
 
+“squid:S1319`"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(²şŒüÿÿÿÿ8Çğì×£/
+|squid:S1488\"^Immediately return this expression instead of assigning it to the temporary variable "numero".(ğÑ´ğ8Çğì×£/
 ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿïì²8Äçğš/
-Psquid:S1444"-Make this "public static browser" field final(¶ÉœÄúÿÿÿÿ8±ìÜÏš/
-Tsquid:S2696"6Make the enclosing method "static" or remove this set.(Ì·•8Ì×šĞš/
-"squid:ClassVariableVisibilityCheck"SMake browser a static final constant or non-public and provide accessors if needed.(¶ÉœÄúÿÿÿÿ8±ìÜÏš/
+Bsquid:S1148µ"#Use a logger to log this exception.(Ç’Çê8Çğì×£/
+Gsquid:S2140\")Use "java.util.Random.nextInt()" instead.(ğÑ´ğ8Çğì×£/
+@squid:S1643­"Use a StringBuilder instead.(şÂúÿÿÿÿ8Çğì×£/
+"squid:ClassVariableVisibilityCheck"SMake browser a static final constant or non-public and provide accessors if needed.(¶ÉœÄúÿÿÿÿ8±ìÜÏš/
+jsquid:S00112V"FDefine and throw a dedicated exception instead of using a generic one.(¡¥àÕşÿÿÿÿ8‘û÷òš/
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú„Â†üÿÿÿÿ8–’ë×£/
+squid:S1319h"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(îÙ½ì8Çğì×£/
+wsquid:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥¿•İ8Çğì×£/
+Psquid:S1444"-Make this "public static browser" field final(¶ÉœÄúÿÿÿÿ8±ìÜÏš/
+wsquid:UselessImportCheck"GRemove this unused import 'com.aventstack.extentreports.ExtentReports'.(ûî•şÿÿÿÿ8Óğ«²¢/
+Tsquid:S2696#"6Make the enclosing method "static" or remove this set.(Ì·•8Ì×šĞš/
+xsquid:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥¿•İ8Çğì×£/
+”squid:S1319†"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(š×€Šÿÿÿÿÿ8Çğì×£/

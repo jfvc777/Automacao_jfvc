@@ -1,10 +1,13 @@
 package runner;
 
 
-import classesPageObjects.UtilTestePO;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import configurationProject.ConfigConecctionProject;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+
 
 /**
  * @author Juan Castillo
@@ -15,16 +18,18 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/features",
         glue = {"stepdefinition", "hooks"},
-        tags = ("@cadastro_seguro"),
+        tags = ("@loginUsuario01"),
         plugin = {
-                "pretty",
-                "html:target/cucumber",
-                "json:target/cucumber.json"
-        }
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        },
+        monochrome = true
 )
 
-public class RunTest extends UtilTestePO {
-
+public class RunTest extends ConfigConecctionProject {
+    @AfterClass
+    public static void fechar() {
+        fecharBrowser();
+    }
 
 
 }

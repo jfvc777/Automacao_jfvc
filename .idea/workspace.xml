@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/398c586b7d769e6c18063fbd7698ff3a37315e68" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf5ecba4d45ff9fe5939f9154f3830866dd370b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd948b071bac4153f7746752e79489d3aec77f71" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b257b71474e3e9f5de163830c3674bc30200fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/648d3099e6616c3c4ae5a148bb2351374862a293" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d03b389c40a39c8e18d72d577614696979a0985" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c918db43b5a1958d1cd82eb64107aa29248ba2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e596f1b8fb0103a77a9cce31ec9222429421eee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a49e8607f070a99a9461981474d6bbdf669cf51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85bdf3d8235aa401ad56909d7933264b6cf6abbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9ce6625974c3e2085d131151daabd6c732c7af72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b32e3cdb0d05c346f2873260f081534ea887da4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf2f9f7987b771761833a8af88faed469e56b93d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60a44a658ef53610b19f24104fbedf16cc00b5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c936b1b304f2200b04d526365b1eafc32eddd897" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d019830190386e0e6053c58aac830fe78222b22a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/edada3b3d96b95858d5a9b0b81befdebaefd9707" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/demo_csv.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/demo_txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/demo_txt_comas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/demo_xls.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/demo_xlsx.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automacao_jfvc.eml" beforeDir="false" afterPath="$PROJECT_DIR$/Automacao_jfvc.eml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automacao_jfvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automacao_jfvc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/read_arquive/exemplo-read.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/rest-api/exemplo-geral.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastrarSeguroPO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSelectPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/param_site.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/StepsValidarArchivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos/ValidarArchivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarRest/ValidarRest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/testes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automacao_jfvc.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarArchivos/StepsValidarArchivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarArchivos/ValidarArchivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/ValidarRest/ValidarRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/funciones_generales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/testes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,73 +55,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/param_site.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,14 +64,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btnNextEnterProduct</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/demo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/lecturaArchivoss/lecturaArchivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/lecturaArchivoss/lecturaArchivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/lecturaArchivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/lecturaArchivo/lecturaArchivo.java" />
@@ -157,16 +104,28 @@
         <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaEnterProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom.pageobjects/cadastrarSeguro/CadastroAbaSelectPrice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hooks/Hook.java" />
         <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/extent.properties" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/param_site.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ConfigConecctionProject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testeReport.java" />
+        <option value="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature" />
+        <option value="$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroTeste.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/MyStepdefss.java" />
+        <option value="$PROJECT_DIR$/src/test/java/configurationProject/ConfigConecctionProject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hooks/Hook.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/runner/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/extent.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLogin/CadastrarLoginPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/login/CadastrarLoginPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarUsuario/CadastroPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java" />
       </list>
     </option>
   </component>
@@ -176,13 +135,13 @@
     <option name="width" value="1380" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectId" id="1uOzNuH8ilLsGSGl7Nlo9LvXsbX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,6 +153,11 @@
             <path>
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,7 +188,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classesPageObjects" type="462c0819:PsiDirectoryNode" />
-              <item name="cadastrarSeguro" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastrarLeilao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classesPageObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastrarUsuario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classesPageObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
@@ -267,6 +249,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,22 +269,34 @@
             </path>
             <path>
               <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automacao_jfvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automacao_jfvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidarArchivos" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/cucumber-core-4.8.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -302,19 +304,14 @@
       <recent name="C:\Automacao_jfvc\src\test\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.RunTest">
+    <configuration name="testeReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeReport" />
+      <module name="Automacao_jfvc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stepdefinition.testes" />
       <module name="Automacao_jfvc" />
@@ -347,9 +344,11 @@
       <list>
         <item itemvalue="JUnit.RunTest" />
         <item itemvalue="Application.testes" />
+        <item itemvalue="Application.testeReport" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -379,34 +378,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2021.05.27 at 10h 43m 53s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 28m 10s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 10h 45m 07s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 29m 33s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 10h 47m 10s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 30m 02s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 10h 48m 59s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 34m 47s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 11h 17m 28s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 36m 38s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 11h 53m 55s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 46m 49s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 11h 54m 54s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 52m 25s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 11h 56m 22s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 54m 37s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 12h 14m 10s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 21h 57m 53s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2021.05.27 at 12h 15m 15s.xml">
+    <history-entry file="RunTest - 2021.06.22 at 22h 03m 55s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -420,9 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3700608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.306231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7348609" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4844517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,7 +452,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3586626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40045592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7348609" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,21 +490,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java</url>
-          <line>236</line>
-          <properties />
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java</url>
+          <line>110</line>
+          <properties class="classesPageObjects.cadastrarLeilao.LeilaoPO" method="linkLeilao">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/demo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/lecturaArchivoss/lecturaArchivo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/lecturaArchivo/lecturaArchivo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsws.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsy.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsaa.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsa.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefsww.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
@@ -524,10 +525,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/MyStepdefs.java" />
+    <entry file="file://$PROJECT_DIR$/Automacao_jfvc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/1.2.6/cucumber-core-1.2.6.jar!/cucumber/runtime/Timeout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/1.2.6/cucumber-core-1.2.6.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#1335#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/1.2.6/cucumber-java-1.2.6.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/1.2.6/cucumber-core-1.2.6.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/param_site.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extent-Config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vimalselvam/cucumber-extentsreport/3.1.1-L/cucumber-extentsreport-3.1.1-L.jar!/com/vimalselvam/cucumber/listener/Reporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1224#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vimalselvam/cucumber-extentsreport/3.1.1/cucumber-extentsreport-3.1.1.jar!/com/vimalselvam/cucumber/listener/Reporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/ExtentReports.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vimalselvam/cucumber-extentsreport/3.0.2/cucumber-extentsreport-3.0.2.jar!/com/cucumber/listener/Reporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testeReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MyStepdefss.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,142 +659,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterVehicleData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="67" />
+        <state relative-caret-position="552">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
             <element signature="e#2574#2575#0" expanded="true" />
             <element signature="e#2618#2619#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastrarSeguroPO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/funciones_generales.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/configurationProject/ConfigConecctionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hooks/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaSendQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extent-Config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Automacao_jfvc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroTeste.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/extent.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/CadastroSeguroVeiculo/StepsCadastroSeguroVeiculo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="233">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastrarSeguroPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarUsuario/CadastroPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="65" selection-start-line="65" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="163" column="30" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarSeguro/CadastroAbaEnterInsurantData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/features/cadastroSeguro/CadastroSeguroVeiculo.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/extent.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/param_site.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -758,6 +891,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.aventstack:extentreports:5.0.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

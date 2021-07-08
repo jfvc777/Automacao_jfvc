@@ -1,0 +1,967 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">jun 24, 2021 04:24:09 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@criarLeilao</a><a class="dropdown-item" href="#">@SistemaLeilao</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo</p>
+            <p class="text-sm">
+              <span>16:24:10 PM</span> / <span>00:28:483</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo</h5>
+<span class='badge badge-success'>06.24.2021 16:24:10</span>
+<span class='badge badge-danger'>06.24.2021 16:24:39</span>
+<span class='badge badge-default'>00:28:483</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Criar leilao com usuario administrador</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.queEstamosAcessandoAoAplicativoWebDeLeilao()">
+                <span>Dado que estamos acessando ao aplicativo web de Leilao</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.estouNaPaginaDeLogin()">
+                <span>Quando estou na Pagina de Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOUsuario(java.lang.String)">
+                <span>E preencho o usuario "juan_castillo"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOPassword(java.lang.String)">
+                <span>E preencho o password "123456789"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoLogin()">
+                <span>E clico no botao Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoLinkCreateAuction()">
+                <span>E clico no link Create Auction</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoNaPagina(java.lang.String)">
+                <span>Entao sou direcionado na pagina "Create an Auction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoONomeDeLeilao(java.lang.String)">
+                <span>E preencho o nome de Leilao "Leilao Teste 01"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOValorInicial(java.lang.String)">
+                <span>E preencho o valor inicial "3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoCampoUsedProduct(java.lang.String)">
+                <span>E clico no campo Used Product "sim"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoSingUp()">
+                <span>E clico no botao Sing Up</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(java.lang.String)">
+                <span>Entao valido que "Leilao Teste 01" exista</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'//a[contains(text(),'%s')]')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'//a[contains(text(),'%s')]')]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PWFAB1458', ip: '192.168.15.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.CAS\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:60304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f1876ea9a5b7362ab92fdfaef9ef7141
+*** Element info: {Using=xpath, value=//a[contains(text(),'//a[contains(text(),'%s')]')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at classesPageObjects.UtilTestePO.stringToWebElement(UtilTestePO.java:48)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.linkLeilao(LeilaoPO.java:113)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.validarLeilaoCriado(LeilaoPO.java:117)
+	at stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(StepsSistemaLeilao.java:147)
+	at ✽.valido que "Leilao Teste 01" exista(file:///C:/Automacao_jfvc/src/test/features/sistemaLeilao/SistemaLeilao.feature:66)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>Criar leilao com usuario administrador</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.queEstamosAcessandoAoAplicativoWebDeLeilao()">
+                <span>Dado que estamos acessando ao aplicativo web de Leilao</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.estouNaPaginaDeLogin()">
+                <span>Quando estou na Pagina de Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOUsuario(java.lang.String)">
+                <span>E preencho o usuario "juan_castillo"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOPassword(java.lang.String)">
+                <span>E preencho o password "123456789"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoLogin()">
+                <span>E clico no botao Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoLinkCreateAuction()">
+                <span>E clico no link Create Auction</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoNaPagina(java.lang.String)">
+                <span>Entao sou direcionado na pagina "Create an Auction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoONomeDeLeilao(java.lang.String)">
+                <span>E preencho o nome de Leilao "Leilao Teste 02"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOValorInicial(java.lang.String)">
+                <span>E preencho o valor inicial "2"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoCampoUsedProduct(java.lang.String)">
+                <span>E clico no campo Used Product "nao"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoSingUp()">
+                <span>E clico no botao Sing Up</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(java.lang.String)">
+                <span>Entao valido que "Leilao Teste 02" exista</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'//a[contains(text(),'%s')]')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'//a[contains(text(),'%s')]')]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PWFAB1458', ip: '192.168.15.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.CAS\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2dd0ec12ea925c71c40eb9c84ada4270
+*** Element info: {Using=xpath, value=//a[contains(text(),'//a[contains(text(),'%s')]')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at classesPageObjects.UtilTestePO.stringToWebElement(UtilTestePO.java:48)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.linkLeilao(LeilaoPO.java:113)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.validarLeilaoCriado(LeilaoPO.java:117)
+	at stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(StepsSistemaLeilao.java:147)
+	at ✽.valido que "Leilao Teste 02" exista(file:///C:/Automacao_jfvc/src/test/features/sistemaLeilao/SistemaLeilao.feature:66)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>Criar leilao com usuario administrador</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.queEstamosAcessandoAoAplicativoWebDeLeilao()">
+                <span>Dado que estamos acessando ao aplicativo web de Leilao</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.estouNaPaginaDeLogin()">
+                <span>Quando estou na Pagina de Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOUsuario(java.lang.String)">
+                <span>E preencho o usuario "juan_castillo"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOPassword(java.lang.String)">
+                <span>E preencho o password "123456789"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoLogin()">
+                <span>E clico no botao Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoLinkCreateAuction()">
+                <span>E clico no link Create Auction</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoNaPagina(java.lang.String)">
+                <span>Entao sou direcionado na pagina "Create an Auction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoONomeDeLeilao(java.lang.String)">
+                <span>E preencho o nome de Leilao "Leilao Teste 03"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOValorInicial(java.lang.String)">
+                <span>E preencho o valor inicial "5"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoCampoUsedProduct(java.lang.String)">
+                <span>E clico no campo Used Product "sim"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoSingUp()">
+                <span>E clico no botao Sing Up</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(java.lang.String)">
+                <span>Entao valido que "Leilao Teste 03" exista</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'//a[contains(text(),'%s')]')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'//a[contains(text(),'%s')]')]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PWFAB1458', ip: '192.168.15.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.CAS\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf92746c6e286dfefb832e07cf41cde6
+*** Element info: {Using=xpath, value=//a[contains(text(),'//a[contains(text(),'%s')]')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at classesPageObjects.UtilTestePO.stringToWebElement(UtilTestePO.java:48)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.linkLeilao(LeilaoPO.java:113)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.validarLeilaoCriado(LeilaoPO.java:117)
+	at stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(StepsSistemaLeilao.java:147)
+	at ✽.valido que "Leilao Teste 03" exista(file:///C:/Automacao_jfvc/src/test/features/sistemaLeilao/SistemaLeilao.feature:66)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>Criar leilao com usuario administrador</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.queEstamosAcessandoAoAplicativoWebDeLeilao()">
+                <span>Dado que estamos acessando ao aplicativo web de Leilao</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.estouNaPaginaDeLogin()">
+                <span>Quando estou na Pagina de Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOUsuario(java.lang.String)">
+                <span>E preencho o usuario "juan_castillo"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOPassword(java.lang.String)">
+                <span>E preencho o password "123456789"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoLogin()">
+                <span>E clico no botao Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoLinkCreateAuction()">
+                <span>E clico no link Create Auction</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoNaPagina(java.lang.String)">
+                <span>Entao sou direcionado na pagina "Create an Auction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoONomeDeLeilao(java.lang.String)">
+                <span>E preencho o nome de Leilao "Leilao Teste 04"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.preenchoOValorInicial(java.lang.String)">
+                <span>E preencho o valor inicial "6"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoCampoUsedProduct(java.lang.String)">
+                <span>E clico no campo Used Product "sim"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.clicoNoBotaoSingUp()">
+                <span>E clico no botao Sing Up</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.souDirecionadoParaOHomeDoAplicativo()">
+                <span>E sou direcionado para o Home do aplicativo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(java.lang.String)">
+                <span>Entao valido que "Leilao Teste 04" exista</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'//a[contains(text(),'%s')]')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'//a[contains(text(),'%s')]')]' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PWFAB1458', ip: '192.168.15.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.CAS\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04784b77b4d4cffde01ef027ce223a9c
+*** Element info: {Using=xpath, value=//a[contains(text(),'//a[contains(text(),'%s')]')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at classesPageObjects.UtilTestePO.stringToWebElement(UtilTestePO.java:48)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.linkLeilao(LeilaoPO.java:113)
+	at classesPageObjects.cadastrarLeilao.LeilaoPO.validarLeilaoCriado(LeilaoPO.java:117)
+	at stepdefinition.CadastroSeguroVeiculo.StepsSistemaLeilao.validoQueExista(StepsSistemaLeilao.java:147)
+	at ✽.valido que "Leilao Teste 04" exista(file:///C:/Automacao_jfvc/src/test/features/sistemaLeilao/SistemaLeilao.feature:66)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.InvalidSelectorException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.InvalidSelectorException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Entao valido que "Leilao Teste 01" exista</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador.Entao valido que "Leilao Teste 01" exista</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='31'>Entao valido que "Leilao Teste 02" exista</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador.Entao valido que "Leilao Teste 02" exista</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>Entao valido que "Leilao Teste 03" exista</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador.Entao valido que "Leilao Teste 03" exista</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='61'>Entao valido que "Leilao Teste 04" exista</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador.Entao valido que "Leilao Teste 04" exista</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@criarLeilao</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@criarLeilao</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='47'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@SistemaLeilao</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SistemaLeilao</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='47'>Criar leilao com usuario administrador</a>
+<div class="">
+<span class="badge badge-default">Cadastro de novo usuario e cadastro de novos leilaos no aplicativo.Criar leilao com usuario administrador</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>jun 24, 2021 04:24:09 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>jun 24, 2021 04:24:39 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>4</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='92%'><b>52</b> steps passed</small></div>
+<div>
+<small data-tooltip='7%'><b>4</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Cadastro de novo usuario e cadastro de novos leilaos no aplicativo":28.483
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@criarLeilao</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SistemaLeilao</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 52,
+failGrandChild: 4,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -34,7 +34,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.queEstamosAcessandoAoAplicativoWebTricentis()"
 });
 formatter.result({
-  "duration": 12985646256,
+  "duration": 11940865943,
   "status": "passed"
 });
 formatter.scenario({
@@ -306,7 +306,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.estouNaAba(String)"
 });
 formatter.result({
-  "duration": 210587146,
+  "duration": 362896649,
   "status": "passed"
 });
 formatter.match({
@@ -319,7 +319,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoMakeAMarca(String)"
 });
 formatter.result({
-  "duration": 799097808,
+  "duration": 468365151,
   "status": "passed"
 });
 formatter.match({
@@ -332,7 +332,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoModelOModelo(String)"
 });
 formatter.result({
-  "duration": 271634827,
+  "duration": 227339113,
   "status": "passed"
 });
 formatter.match({
@@ -345,7 +345,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoCylinderCapacityOValor(String)"
 });
 formatter.result({
-  "duration": 320468895,
+  "duration": 285575282,
   "status": "passed"
 });
 formatter.match({
@@ -358,7 +358,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoEnginePerformanceOValor(String)"
 });
 formatter.result({
-  "duration": 147971748,
+  "duration": 150155564,
   "status": "passed"
 });
 formatter.match({
@@ -371,7 +371,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoDateOfManufactureAData(String)"
 });
 formatter.result({
-  "duration": 241474786,
+  "duration": 228251726,
   "status": "passed"
 });
 formatter.match({
@@ -384,7 +384,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoNumberOfSeatsONumero(String)"
 });
 formatter.result({
-  "duration": 224089822,
+  "duration": 271824546,
   "status": "passed"
 });
 formatter.match({
@@ -397,7 +397,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoRightHandDriveOValor(String)"
 });
 formatter.result({
-  "duration": 122030797,
+  "duration": 153814698,
   "status": "passed"
 });
 formatter.match({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoDeNovoNoCampoNumberOfSeatsONumero(String)"
 });
 formatter.result({
-  "duration": 236096900,
+  "duration": 237446950,
   "status": "passed"
 });
 formatter.match({
@@ -423,7 +423,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoFuelTypeOValor(String)"
 });
 formatter.result({
-  "duration": 223723191,
+  "duration": 219780323,
   "status": "passed"
 });
 formatter.match({
@@ -436,7 +436,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoPayloadOValor(String)"
 });
 formatter.result({
-  "duration": 141077118,
+  "duration": 151166347,
   "status": "passed"
 });
 formatter.match({
@@ -449,7 +449,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoTotalWeightOValor(String)"
 });
 formatter.result({
-  "duration": 145827087,
+  "duration": 152688752,
   "status": "passed"
 });
 formatter.match({
@@ -462,7 +462,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoListPriceOValor(String)"
 });
 formatter.result({
-  "duration": 150241765,
+  "duration": 145943272,
   "status": "passed"
 });
 formatter.match({
@@ -475,7 +475,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoLicensePlateNumberOValor(String)"
 });
 formatter.result({
-  "duration": 165936676,
+  "duration": 173724154,
   "status": "passed"
 });
 formatter.match({
@@ -488,14 +488,14 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoAnnualMileageOValor(String)"
 });
 formatter.result({
-  "duration": 161138377,
+  "duration": 158284877,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsCadastroSeguroVeiculo.clicoNoBotaoNextDaAbaEnterVehicle()"
 });
 formatter.result({
-  "duration": 174685985,
+  "duration": 162051623,
   "status": "passed"
 });
 formatter.match({
@@ -508,7 +508,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.souDirecionadoParaAAba(String)"
 });
 formatter.result({
-  "duration": 54122090,
+  "duration": 50806513,
   "status": "passed"
 });
 formatter.match({
@@ -521,7 +521,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoFirstNameOValor(String)"
 });
 formatter.result({
-  "duration": 176129099,
+  "duration": 178846416,
   "status": "passed"
 });
 formatter.match({
@@ -534,7 +534,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoLastNameOValor(String)"
 });
 formatter.result({
-  "duration": 153542202,
+  "duration": 162724472,
   "status": "passed"
 });
 formatter.match({
@@ -547,7 +547,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoDateOfBirthOValor(String)"
 });
 formatter.result({
-  "duration": 224194789,
+  "duration": 202515821,
   "status": "passed"
 });
 formatter.match({
@@ -560,7 +560,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoGenderOValor(String)"
 });
 formatter.result({
-  "duration": 153579960,
+  "duration": 127946263,
   "status": "passed"
 });
 formatter.match({
@@ -573,7 +573,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoStreetAddressOValor(String)"
 });
 formatter.result({
-  "duration": 198733744,
+  "duration": 203759571,
   "status": "passed"
 });
 formatter.match({
@@ -586,7 +586,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoCountryOValor(String)"
 });
 formatter.result({
-  "duration": 345096242,
+  "duration": 250289604,
   "status": "passed"
 });
 formatter.match({
@@ -599,7 +599,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoZipCodeOValor(String)"
 });
 formatter.result({
-  "duration": 175348262,
+  "duration": 161689523,
   "status": "passed"
 });
 formatter.match({
@@ -612,7 +612,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoCityOValor(String)"
 });
 formatter.result({
-  "duration": 140728610,
+  "duration": 150582985,
   "status": "passed"
 });
 formatter.match({
@@ -625,7 +625,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoOccupationOValor(String)"
 });
 formatter.result({
-  "duration": 206540610,
+  "duration": 206524218,
   "status": "passed"
 });
 formatter.match({
@@ -638,7 +638,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoHobbiesOValor(String)"
 });
 formatter.result({
-  "duration": 116620060,
+  "duration": 119625515,
   "status": "passed"
 });
 formatter.match({
@@ -651,14 +651,14 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoWebsiteOValor(String)"
 });
 formatter.result({
-  "duration": 197856624,
+  "duration": 238000484,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsCadastroSeguroVeiculo.clicoNoBotaoNextDaAbaEnterInsurant()"
 });
 formatter.result({
-  "duration": 185349251,
+  "duration": 160101796,
   "status": "passed"
 });
 formatter.match({
@@ -671,7 +671,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.souDirecionadoParaAAba(String)"
 });
 formatter.result({
-  "duration": 47264085,
+  "duration": 52743880,
   "status": "passed"
 });
 formatter.match({
@@ -684,7 +684,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoStartDateOValor(String)"
 });
 formatter.result({
-  "duration": 212101624,
+  "duration": 208685112,
   "status": "passed"
 });
 formatter.match({
@@ -697,7 +697,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoInsuranceSumOValor(String)"
 });
 formatter.result({
-  "duration": 241606940,
+  "duration": 211879446,
   "status": "passed"
 });
 formatter.match({
@@ -710,7 +710,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoMeritRatingOValor(String)"
 });
 formatter.result({
-  "duration": 213716160,
+  "duration": 210795789,
   "status": "passed"
 });
 formatter.match({
@@ -723,7 +723,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoDamageInsuranceOValor(String)"
 });
 formatter.result({
-  "duration": 215981647,
+  "duration": 219936642,
   "status": "passed"
 });
 formatter.match({
@@ -736,7 +736,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoOptionalProductsOValor(String)"
 });
 formatter.result({
-  "duration": 116685004,
+  "duration": 130289151,
   "status": "passed"
 });
 formatter.match({
@@ -749,14 +749,14 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoNoCampoCourtesyCarOValor(String)"
 });
 formatter.result({
-  "duration": 221583061,
+  "duration": 225426289,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsCadastroSeguroVeiculo.clicoNoBotaoNextDaAbaEnterProduct()"
 });
 formatter.result({
-  "duration": 163298895,
+  "duration": 185114633,
   "status": "passed"
 });
 formatter.match({
@@ -769,7 +769,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.souDirecionadoParaAAba(String)"
 });
 formatter.result({
-  "duration": 45238741,
+  "duration": 48160426,
   "status": "passed"
 });
 formatter.match({
@@ -782,14 +782,14 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.selecionoOPlano(String)"
 });
 formatter.result({
-  "duration": 136057178,
+  "duration": 169470708,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsCadastroSeguroVeiculo.clicoNoBotaoNextDaAbaSelectPrice()"
 });
 formatter.result({
-  "duration": 507881627,
+  "duration": 446359366,
   "status": "passed"
 });
 formatter.match({
@@ -802,7 +802,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.souDirecionadoParaAAba(String)"
 });
 formatter.result({
-  "duration": 47383024,
+  "duration": 54289318,
   "status": "passed"
 });
 formatter.match({
@@ -815,7 +815,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoOEmail(String)"
 });
 formatter.result({
-  "duration": 326012163,
+  "duration": 327246605,
   "status": "passed"
 });
 formatter.match({
@@ -828,7 +828,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoONumeroTelefonico(String)"
 });
 formatter.result({
-  "duration": 202089307,
+  "duration": 232633927,
   "status": "passed"
 });
 formatter.match({
@@ -841,7 +841,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoONomeDeUsuario(String)"
 });
 formatter.result({
-  "duration": 176659601,
+  "duration": 271173974,
   "status": "passed"
 });
 formatter.match({
@@ -854,7 +854,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoASenha(String)"
 });
 formatter.result({
-  "duration": 163209786,
+  "duration": 219334023,
   "status": "passed"
 });
 formatter.match({
@@ -867,7 +867,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoAConfirmacaoDaSenha(String)"
 });
 formatter.result({
-  "duration": 176903896,
+  "duration": 201722902,
   "status": "passed"
 });
 formatter.match({
@@ -880,14 +880,14 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.preenchoNoCampoCommentsOComentario(String)"
 });
 formatter.result({
-  "duration": 296435106,
+  "duration": 162434112,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsCadastroSeguroVeiculo.clicoNoBotaoNextDaAbaSendQuote()"
 });
 formatter.result({
-  "duration": 174929525,
+  "duration": 125495009,
   "status": "passed"
 });
 formatter.match({
@@ -900,7 +900,7 @@ formatter.match({
   "location": "StepsCadastroSeguroVeiculo.validamosQueOMensagemDeConfirmacaoContemEClicarNoBotaoOK(String)"
 });
 formatter.result({
-  "duration": 9423313667,
+  "duration": 9374122124,
   "status": "passed"
 });
 });
