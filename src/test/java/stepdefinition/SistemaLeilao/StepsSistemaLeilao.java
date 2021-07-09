@@ -27,15 +27,9 @@ public class StepsSistemaLeilao {
         loginPO.logarSite();
     }
 
-    @Quando("estou na Pagina de Login")
-    public void estouNaPaginaDeLogin() {
-        loginPO.validarLogin();
-    }
 
-    @E("seleciono no link Sign UP")
-    public void selecionoNoLinkSignUP() {
-        loginPO.selecionarSignUp();
-    }
+
+
 
     @E("preencho no campo Name o valor {string}")
     public void preenchoNoCampoNameOValor(String param) {
@@ -82,28 +76,6 @@ public class StepsSistemaLeilao {
     public void souDirecionadoParaOHomeDoAplicativo() {
         leilaoPO = new LeilaoPO();
         leilaoPO.validarLeilaoHome();
-    }
-
-
-    @E("preencho o usuario {string}")
-    public void preenchoOUsuario(String param) {
-        loginPO = new LoginPO();
-        loginPO.preencherUserName(param);
-    }
-
-    @E("preencho o password {string}")
-    public void preenchoOPassword(String param) {
-        loginPO.preencherPassWord(param);
-    }
-
-    @E("clico no botao Login")
-    public void clicoNoBotaoLogin() {
-        loginPO.selecionarLogin();
-    }
-
-    @Entao("se mostra o mensagem {string}")
-    public void seMostraOMensagem(String param) {
-        loginPO.validarErro(param);
     }
 
     @E("clico no enlace Sign Out")

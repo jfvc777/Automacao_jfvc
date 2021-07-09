@@ -4,6 +4,7 @@ package runner;
 import configurationProject.ConfigConecctionProject;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
@@ -17,7 +18,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/features",
         glue = {"stepdefinition", "hooks"},
-        tags = ("@loginUsuario01"),
+        tags = ("@caso_002"),
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },

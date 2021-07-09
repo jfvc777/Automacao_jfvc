@@ -1,11 +1,7 @@
 package classesPageObjects.login;
 
 import classesPageObjects.UtilTestePO;
-import classesPageObjects.cadastrarLeilao.LeilaoPO;
-import classesPageObjects.cadastrarUsuario.CadastroPO;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import org.junit.Assert;
+import classesPageObjects.comprarSauce.ComprarPO;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,18 +13,15 @@ import java.io.IOException;
  */
 public class LoginPO extends UtilTestePO {
 
-    @FindBy(xpath = "//div[@class='input-group-prepend']/span/following::input[@placeholder='username']")
+    //Login
+    @FindBy(xpath = "//h4[contains(text(),'Accepted usernames are:')]")
+    private WebElement lblLogin;
+    @FindBy(xpath = "//input[@id='user-name']")
     private WebElement cmpUserName;
-    @FindBy(xpath = "//div[@class='input-group-prepend']/span/following::input[@placeholder='password']")
+    @FindBy(xpath = "//input[@id='password']")
     private WebElement cmpPassWord;
-    @FindBy(xpath = "//button[contains(text(),'Login')]")
+    @FindBy(xpath = "//input[@id='login-button']")
     private WebElement btnLogin;
-    @FindBy(xpath = "//a[contains(text(),'Sign Up')]")
-    private WebElement lnkSignUp;
-    @FindBy(xpath = "//h3[contains(text(),'Sign In')]")
-    private WebElement lblSignIn;
-    @FindBy(xpath = "//div[contains(text(),'Login/Password invalid. Try again.')]")
-    private WebElement msgErro;
 
     public LoginPO() {
         carregarPageFactory();
@@ -40,12 +33,7 @@ public class LoginPO extends UtilTestePO {
     }
 
     public void validarLogin(){
-        elementExist(cmpUserName);
-    }
-
-    public void validarErro(String param){
-        String lblErro = msgErro.getText();
-        Assert.assertEquals(param,lblErro);
+        elementExist(lblLogin);
     }
 
     public void preencherUserName(String param) {
@@ -58,17 +46,12 @@ public class LoginPO extends UtilTestePO {
         this.cmpPassWord.sendKeys(param);
     }
 
-    public LeilaoPO selecionarLogin() {
+    public ComprarPO selecionarLogin() {
         elementExist(btnLogin);
         this.btnLogin.click();
-        return new LeilaoPO();
+        return new ComprarPO();
     }
 
-    public CadastroPO selecionarSignUp() {
-        elementExist(lnkSignUp);
-        this.lnkSignUp.click();
-        return new CadastroPO();
-    }
 
 
 

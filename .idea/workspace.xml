@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/648d3099e6616c3c4ae5a148bb2351374862a293" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d25c2707a5636b26af39380fd3f3622fbc77c3e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b257b71474e3e9f5de163830c3674bc30200fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/param_site.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/sistemaSauce/SistemaSauce.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/sistemaSauce/SistemaSauce.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/SistemaLeilao/StepsSistemaLeilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/SistemaLeilao/StepsSistemaLeilao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classesPageObjects/login/LoginPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classesPageObjects/login/LoginPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/param_site.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/SistemaLeilao/StepsSistemaLeilao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinition/SistemaLeilao/StepsSistemaLeilao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,17 +473,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/UtilTestePO.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/cadastrarLeilao/LeilaoPO.java</url>
-          <line>110</line>
-          <properties class="classesPageObjects.cadastrarLeilao.LeilaoPO" method="linkLeilao">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/comprarSauce/ComprarPO.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinition/SistemaSauce/StepsSistemaSauce.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/comprarSauce/ComprarPO.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/comprarSauce/ComprarPO.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classesPageObjects/comprarSauce/ComprarPO.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
