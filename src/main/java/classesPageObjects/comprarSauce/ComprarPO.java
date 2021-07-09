@@ -141,7 +141,7 @@ public class ComprarPO extends UtilTestePO {
 
         String value = "";
 
-        switch (param){
+        switch (param) {
             case "Name (A to Z)":
                 value = "az";
                 break;

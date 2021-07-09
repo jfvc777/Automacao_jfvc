@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b257b71474e3e9f5de163830c3674bc30200fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d15cde79812be542dca0c49b072c886c125470c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classesPageObjects/login/LoginPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/param_site.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/sistemaSauce/SistemaSauce.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/sistemaSauce/SistemaSauce.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/SistemaLeilao/StepsSistemaLeilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/SistemaLeilao/StepsSistemaLeilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classesPageObjects/login/LoginPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classesPageObjects/login/LoginPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/param_site.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/param_site.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/SistemaLeilao/StepsSistemaLeilao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinition/SistemaLeilao/StepsSistemaLeilao.class" afterDir="false" />
-    </list>
+    <list default="true" id="17c70731-089d-4ef7-b5ba-23e2c3a13eba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
